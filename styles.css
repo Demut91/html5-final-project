@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1920 px;
+    margin: 0 auto;
+}
+
+header {
+    height: 1024px;
+    background-color: beige;
+    background-image: url(images/mainFon.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 40px 150px 42px 150px;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.slider-content {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.slider-smallheading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 341px;
+}
+
+.slider-headng {
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.slider-text {
+    margin: 1em;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.started-button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 50px;
+    width: 170px;
+    border: none;
+    background-color: #998675;
+    border-radius: 3px;
+    letter-spacing: 0.05em;
+}
+
+.started-button:hover {
+    border: 2px solid;
+    border-left-color: rgb(118, 118, 118);
+    border-top-color: rgb(118, 118, 118);
+    border-bottom-color: rgb(195, 195, 195);
+    border-right-color: rgb(195, 195, 195);
+}
+
+.started-button:active {
+    border: 2px solid;
+    border-left-color: rgb(195, 195, 195);
+    border-top-color: rgb(195, 195, 195);
+    border-bottom-color: rgb(118, 118, 118);
+    border-right-color: rgb(118, 118, 118);
+}
+
+.started-button:focus {
+    outline: none;
+}
