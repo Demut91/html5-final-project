@@ -4,7 +4,7 @@
 }
 
 .container {
-    width: 1920 px;
+    width: 1920px;
     margin: 0 auto;
 }
 
@@ -14,9 +14,67 @@ header {
     background-image: url(images/mainFon.jpg);
     background-size: cover;
     background-position: center center;
-    padding: 40px 150px 42px 150px;
+    padding: 60px 150px 42px 150px;
     text-align: center;
 }
+
+.logo {
+    display: block;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-left: 226px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: -18px;
+    
+    
+}
+
+.logo img {
+    vertical-align: middle;
+    width: 64px;
+    height: 56px;
+    padding-right: 15px;
+  
+    
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.menu-link:hover {
+    opacity: 0.7;
+}
+
+.menu-link-active {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #c7b299;
+    padding: 10px 15px;
+}
+
 
 .clearfix:after {
     content: "";
@@ -79,6 +137,7 @@ header {
     border-top-color: rgb(118, 118, 118);
     border-bottom-color: rgb(195, 195, 195);
     border-right-color: rgb(195, 195, 195);
+    cursor: pointer;
 }
 
 .started-button:active {
