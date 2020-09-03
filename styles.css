@@ -8,28 +8,36 @@
     margin: 0 auto;
 }
 
-header {
-    height: 1024px;
-    background-color: beige;
+/*Стили первого блока-слайдера*/
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #a67a5b;
     background-image: url(images/mainFon.jpg);
     background-size: cover;
     background-position: center center;
     padding: 60px 150px 42px 150px;
-    text-align: center;
-    position: relative;
+    height: 1024px;
+}
+
+/*Оформление лого и меню*/
+
+.header {
+    display: flex;
 }
 
 .logo {
     display: block;
-    float: left;
     font-family: 'Raleway', sans-serif;
     font-size: 34px;
     line-height: 1.2;
     font-weight: 400;
-    margin-left: 176px;
     color: #ffffff;
     text-decoration: none;
-    margin-top: -18px;
+    margin-left: 176px;
+    margin-top: -17px;
 }
 
 .logo img {
@@ -40,13 +48,12 @@ header {
 }
 
 .menu {
-    float: right;
-    padding-right: 200px;
+    display: flex;
+    padding-left: 235px;
 }
 
 .menu-list {
     list-style-type: none;
-    float: left;
 }
 
 .menu-link {
@@ -83,17 +90,20 @@ header {
     margin-top: -4px;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+/*Контент слайдера*/
 
 .slider-content {
-    text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.slider-headings {
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+    text-align: center;
+    margin-top: -100px;
 }
 
 .slider-smallheading {
@@ -102,10 +112,10 @@ header {
     line-height: 1.2;
     font-weight: 500;
     color: #ffffff;
-    margin-top: 341px;
 }
 
 .slider-headng {
+    margin: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 52px;
     line-height: 1.2;
@@ -113,15 +123,19 @@ header {
     color: #ffffff;
 }
 
-.slider-text {
-    margin: 1em;
-    display: block;
+.slider-text {  
+    max-width: 1150px;
+    margin-top: 19px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 300;
     color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+/*Кнопки*/
 
 .started-button {
     font-family: 'Raleway', sans-serif;
@@ -134,25 +148,26 @@ header {
     width: 170px;
     border: none;
     background-color: #998675;
-    border-radius: 3px;
+    border-radius: 4px;
     letter-spacing: 0.05em;
+    margin-top: 45px;
 }
 
 .started-button:hover {
     border: 2px solid;
-    border-left-color: rgb(118, 118, 118);
-    border-top-color: rgb(118, 118, 118);
-    border-bottom-color: rgb(195, 195, 195);
-    border-right-color: rgb(195, 195, 195);
+    border-left-color: #767676;
+    border-top-color: #767676;    ;
+    border-bottom-color: #c3c3c3;
+    border-right-color: #c3c3c3;
     cursor: pointer;
 }
 
 .started-button:active {
     border: 2px solid;
-    border-left-color: rgb(195, 195, 195);
-    border-top-color: rgb(195, 195, 195);
-    border-bottom-color: rgb(118, 118, 118);
-    border-right-color: rgb(118, 118, 118);
+    border-left-color: #c3c3c3;
+    border-top-color: #c3c3c3;
+    border-bottom-color: #767676;    ;
+    border-right-color: #767676;
 }
 
 .started-button:focus {
@@ -169,16 +184,10 @@ header {
 
 .left-arrow {
     background-image: url(images/left_arrow.png);
-    position: absolute;
-    top: 475px;
-    left: 150px;
 }
 
 .right-arrow {
     background-image: url(images/right_arrow.png);
-    position: absolute;
-    top: 475px;
-    right: 150px;
 }
 
 .arrow:focus {
@@ -189,10 +198,12 @@ header {
     opacity: 0.7;
 }
 
+/*Пагинация*/
+
 .pagination {
-    position: absolute;
-    width: 85%;
-    bottom: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     margin-bottom: 5px;
 }
 
@@ -204,7 +215,6 @@ header {
     display: inline-block;
     margin: 5px;
 }
-
 
 .circle:hover {
     background-color: #d3c1ad;
