@@ -262,34 +262,73 @@
     color: #8c8c8c;
     margin-bottom: 30px;
 }
+
 .item-icon {
     fill: #555555;
 }
+
 .item::after {
     content: '';
     display: block;
     margin: 0 auto;
     height: 3px;
     width: 70px;
-    background-color: #f1eee9;    
+    background-color: #f1eee9;
 }
+
 .item:hover {
     cursor: pointer;
 }
+
 .item:hover .item-heading {
-    color: #c7b299;    
+    color: #c7b299;
 }
+
 .item:hover .item-icon {
-    fill: #c7b299;    
+    fill: #c7b299;
 }
+
 .item:hover::after {
     background-color: #c7b299;
 }
 
+/*трехмерный бокс*/
 
+.three-dbox {
+    background-color: #fbfaf8;
+    text-align: center;
+}
 
+.page-heading {
+    padding-top: 83px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
 
+.three-ddesc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    padding: 1em;
+}
 
+.three-images {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
-
-
+.first-img {
+    z-index: 2;
+}
+.second-img {
+    z-index: -1;
+}
