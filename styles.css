@@ -329,11 +329,52 @@
 }
 
 .first-img {
-    z-index: 2;
+    z-index: 3;
+    position: relative;
 }
 
 .second-img {
     position: absolute;
-    left: 20px;
+    
+    left: 346px;
+    z-index: 2;
+}
+
+.last-img {
+    position: absolute;
+    right: 344px;
     z-index: 1;
 }
+
+.wordpress-stripe {
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
