@@ -136,7 +136,7 @@
 
 /*Кнопки*/
 
-.started-button {
+.big-button {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     line-height: 23px;
@@ -152,7 +152,7 @@
     margin-top: 45px;
 }
 
-.started-button:hover {
+.big-button:hover {
     border: 2px solid;
     border-left-color: #767676;
     border-top-color: #767676;
@@ -162,7 +162,7 @@
     cursor: pointer;
 }
 
-.started-button:active {
+.big-button:active {
     border: 2px solid;
     border-left-color: #c3c3c3;
     border-top-color: #c3c3c3;
@@ -171,7 +171,7 @@
     border-right-color: #767676;
 }
 
-.started-button:focus {
+.big-button:focus {
     outline: none;
 }
 
@@ -335,7 +335,7 @@
 
 .second-img {
     position: absolute;
-    
+
     left: 346px;
     z-index: 2;
 }
@@ -346,10 +346,47 @@
     z-index: 1;
 }
 
+/*полоса Wordpress c кнопкой*/
+
 .wordpress-stripe {
-    width: 100%;
-    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 48px;
+    background-color: #f4f5f8;
     background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+}
+
+.wordpress-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.waxom {
+    color: #c7b299;
+}
+
+.wordpress-text {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0.5em;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #615855;
+}
+
+.bew {
+    margin: 0;
+}
+
+.left-column {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 
@@ -378,3 +415,126 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+65465465
