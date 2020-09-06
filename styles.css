@@ -321,14 +321,19 @@
 }
 
 .three-images {
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
 }
 
 .first-img {
     z-index: 2;
 }
+
 .second-img {
-    z-index: -1;
+    position: absolute;
+    left: 20px;
+    z-index: 1;
 }
