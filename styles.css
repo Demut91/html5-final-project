@@ -335,7 +335,6 @@
 
 .second-img {
     position: absolute;
-
     left: 346px;
     z-index: 2;
 }
@@ -389,11 +388,141 @@
     flex-direction: column;
 }
 
+/*Блок "Наши последние проекты" */
+
+.latest-projects {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.latest-buttons {
+    padding: 10px 21px 8px 21px;
+    margin: 5px;
+}
+
+.latest-button {
+    padding: 9px 20px 7px 20px;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #8c8c8c;
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+}
+
+.latest-button:hover {
+    cursor: pointer;
+    background-color: #998675;
+    color: #ffffff;
+}
+
+.l-items-container {
+    padding-right: 250px;
+    padding-left: 210px;
+}
 
 
+.latest-item {
+    display: inline-block;
+    width: 370px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
 
+.latest-footer {
+    margin-top: -5px;
+    text-align: left;
+    background-color: #fbfaf8;
+    padding: 25px 30px;
+    position: relative;
+}
 
+.latest-footer::before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 25px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #fbfaf8;
+    transform: rotate(45deg);
+}
 
+.l-footer-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #c7b299;
+}
+
+.l-footer-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #d1d1d1;
+    margin-top: 10px;
+}
+
+.latest-item:hover {
+    cursor: pointer;
+}
+
+.latest-item:hover .latest-footer {
+    background-color: #362f2d;
+}
+
+.latest-item:hover .l-footer-heading {
+    color: #ffffff;
+}
+
+.latest-item:hover .l-footer-desc {
+    color: #c7b299;
+}
+
+.latest-item:hover .latest-footer::before {
+    background-color: #362f2d;
+}
+
+.overlay {
+    background-color: rgba(17, 17, 17, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 100px;
+    width: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay svg {
+    margin: 5px;
+    fill: #fff;
+}
+
+.overlay svg:hover {
+    fill: #c7b299;
+}
+
+.video-presentation {
+    height: 705px;
+    background-color: rgba(17, 17, 17, 0.5);
+    margin-top: 80px;
+}
 
 
 
