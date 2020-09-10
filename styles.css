@@ -676,7 +676,6 @@
 }
 
 .recent-item {
-    /*    display: inline-block;*/
     width: 370px;
     margin-top: 40px;
     margin-left: 15px;
@@ -717,6 +716,7 @@
     color: #c7b299;
     text-decoration: none;
 }
+
 .small-link:hover {
     opacity: 0.6;
 }
@@ -758,7 +758,47 @@
 .recent-item:hover .overlay2 {
     opacity: 1;
 }
+.recent-item:hover .date {
+    background-color: #c7b299;
+    opacity: 1;
+}
+.recent-item:hover .month {
+    background-color: #a48d72;
+    opacity: 1;
+}
 
+
+.date {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50px;
+    height: 55px;
+    background-color: #363636;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+}
+
+.month {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    height: 25px;
+    width: 50px;
+    background-color: #252525;
+    border-radius: 0px 0px 3px 3px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
 
 
 
