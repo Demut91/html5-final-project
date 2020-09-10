@@ -655,9 +655,8 @@
 }
 
 
-
 .recent-posts {
-      text-align: center;
+    text-align: center;
 }
 
 .recent-desc {
@@ -669,9 +668,96 @@
     margin: 0 auto;
     width: 40%;
     padding: 1em;
- 
 }
 
+.recent-posts-container {
+    display: flex;
+    justify-content: center;
+}
+
+.recent-item {
+    /*    display: inline-block;*/
+    width: 370px;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.recent-footer {
+    margin-top: -5px;
+    text-align: left;
+    background-color: #fbfaf8;
+    padding: 25px 30px;
+}
+
+.r-footer-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #555555;
+}
+
+.r-footer-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.small-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #c7b299;
+    text-decoration: none;
+}
+.small-link:hover {
+    opacity: 0.6;
+}
+
+.small-link svg {
+    position: relative;
+    top: 2px;
+    left: 6px;
+}
+
+
+.recent-item:hover {
+    cursor: pointer;
+}
+
+.recent-item:hover .recent-footer {
+    background-color: #362f2d;
+}
+
+.recent-item:hover .r-footer-heading {
+    color: #c7b299;
+}
+
+.recent-item:hover .r-footer-desc {
+    color: #ffffff;
+}
+
+.overlay2 {
+    background-color: rgba(17, 17, 17, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 157px;
+    width: 100%;
+    opacity: 0;
+}
+
+.recent-item:hover .overlay2 {
+    opacity: 1;
+}
 
 
 
