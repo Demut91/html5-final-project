@@ -758,10 +758,12 @@
 .recent-item:hover .overlay2 {
     opacity: 1;
 }
+
 .recent-item:hover .date {
     background-color: #c7b299;
     opacity: 1;
 }
+
 .recent-item:hover .month {
     background-color: #a48d72;
     opacity: 1;
@@ -800,7 +802,57 @@
     color: #ffffff;
 }
 
+.left-cirle-arrow {
+    margin-right: 2px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    background: transparent;
+    background-image: url(images/left_circle_arrow.png);
+}
 
+.right-cirle-arrow {
+    margin-left: 2px;
+    margin-bottom: 80px;
+    border: none;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    background: transparent;
+    background-image: url(images/right_circle_arrow.png);
+}
+
+.right-cirle-arrow:hover {
+    background-image: url(images/right_11744.png);
+}
+
+.left-cirle-arrow:hover {
+    background-image: url(images/left_11744.png);
+}
+
+.right-cirle-arrow:focus {
+    outline: none;
+}
+
+.left-cirle-arrow:hover {
+    outline: none;
+}
+
+.four-logos {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/bg_photo_11122.jpg);
+    background-position: contain;
+    background-repeat: no-repeat;
+    padding: 95px;
+}
+.four-logos img {
+   align-self: center;
+    margin: 45px;
+    width: 210px;
+}
 
 
 
