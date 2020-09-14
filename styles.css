@@ -523,18 +523,10 @@
 }
 
 
-
 .video-presentation {
-    /*    background-color: rgba(17, 17, 17, 0.5);*/
-
-    height: 705px;
+     height: 705px;
     margin-top: 80px;
     text-align: center;
-    /*
-    padding-top: 225px;
-    min-height: 300px;
-*/
-
     position: relative;
     color: #fff;
     display: flex;
@@ -568,6 +560,8 @@
     height: 100%;
     object-fit: cover;
 }
+
+/*блок с мобильным*/
 
 .mobile-devices {
     padding-top: 102px;
@@ -607,6 +601,7 @@
     left: 13px;
 }
 
+/*большая полоса*/
 
 .big-stripe {
     display: flex;
@@ -654,6 +649,7 @@
     color: #c7b299;
 }
 
+/*блок посты с датами*/
 
 .recent-posts {
     text-align: center;
@@ -761,12 +757,10 @@
 
 .recent-item:hover .date {
     background-color: #c7b299;
-    opacity: 1;
 }
 
 .recent-item:hover .month {
     background-color: #a48d72;
-    opacity: 1;
 }
 
 
@@ -836,9 +830,11 @@
     outline: none;
 }
 
-.left-cirle-arrow:hover {
+.left-cirle-arrow:focus {
     outline: none;
 }
+
+/*блок с 4 лого*/
 
 .four-logos {
     display: flex;
@@ -848,11 +844,155 @@
     background-repeat: no-repeat;
     padding: 95px;
 }
+
 .four-logos img {
-   align-self: center;
+    align-self: center;
     margin: 45px;
     width: 210px;
+
 }
+
+/*большой футер*/
+
+.big-footer-desc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bigfooter {
+    margin-top: -1px;
+    display: flex;
+    justify-content: center;
+    background-color: #191919;
+    padding-top: 94px;
+    padding-bottom: 80px;
+}
+
+.bigfooter > div {
+    width: 16%;
+    margin: 15px;
+}
+
+.f-logo {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: -15px;
+}
+
+.bigfooter-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.big-footer-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.footer-date {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #363636;
+}
+
+.footer-post:hover {
+    color: #c7b299;
+}
+
+.f-logo img {
+    vertical-align: middle;
+    width: 64px;
+    height: 56px;
+    padding-right: 15px;
+}
+
+hr {
+    margin: 15px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 2px solid #252525;
+}
+
+.tw-blue {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #00bff3;
+}
+
+.tw-post-link {
+    color: #959595;
+}
+
+.widget img {
+    margin: 5px;
+}
+
+/*оформление футера*/
+
+footer {
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15%;
+    padding-right: 16%;
+}
+
+.footer-menu {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #555555;
+    list-style-type: none;
+}
+
+.footer-menu li {
+    padding: 10px;
+}
+
+.footer-menu li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #959595;
+    text-decoration: none;
+}
+.footer-menu li a:hover {
+    color: #c7b299;
+}
+.vertical-line li a {
+    border-left: 1px solid #252525;
+    padding-left: 15px;
+}
+.vertical-line li:first-child a{
+    border-left: none;
+}
+.line li:last-child {
+    border-left: 1px solid #252525;
+}
+
 
 
 
