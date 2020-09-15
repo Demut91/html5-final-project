@@ -4,6 +4,7 @@
 }
 
 .container {
+    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -16,9 +17,14 @@
     background-color: #a67a5b;
     background-image: url(images/mainFon.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
     padding: 60px 150px 42px 150px;
-    height: 1024px;
+    max-height: 1024px;
+}
+
+.slider-margin {
+    margin-bottom: 304px;
 }
 
 /*Оформление лого и меню*/
@@ -65,19 +71,8 @@
     padding: 10px 15px;
 }
 
-.menu-link:hover,
-.menu-link-icon:hover {
-    opacity: 0.7;
-}
-
-.menu-link-active {
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 1.2;
-    font-weight: 300;
+.menu-link:hover {
     color: #c7b299;
-    padding: 10px 15px;
 }
 
 .menu-link-icon {
@@ -85,8 +80,23 @@
     padding-left: 45px;
 }
 
-.iconUp {
+.menu-link-icon svg {
+    fill: #fff;
     margin-top: -4px;
+}
+
+.menu-link-icon svg:hover {
+    fill: #c7b299;
+}
+
+.menu-link-search svg {
+    fill: #fff;
+    margin-top: -3px;
+    padding-left: 13px;
+}
+
+.menu-link-search svg:hover {
+    fill: #c7b299;
 }
 
 /*Контент слайдера*/
@@ -98,11 +108,12 @@
 }
 
 .slider-headings {
+    margin-top: 240px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: -100px;
+
 }
 
 .slider-smallheading {
@@ -150,16 +161,17 @@
     border-radius: 4px;
     letter-spacing: 0.05em;
     margin-top: 45px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
 }
 
 .big-button:hover {
-    border: 2px solid;
-    border-left-color: #767676;
-    border-top-color: #767676;
-    ;
     border-bottom-color: #c3c3c3;
     border-right-color: #c3c3c3;
     cursor: pointer;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    border: 2px solid;
+    border-left-color: #767676;
+    border-top-color: #767676;
 }
 
 .big-button:active {
@@ -167,8 +179,8 @@
     border-left-color: #c3c3c3;
     border-top-color: #c3c3c3;
     border-bottom-color: #767676;
-    ;
     border-right-color: #767676;
+
 }
 
 .big-button:focus {
@@ -177,26 +189,25 @@
 
 .arrow {
     border: none;
-    cursor: pointer;
-    width: 40px;
-    height: 73px;
     background: transparent;
+    margin: 5px;
 }
 
-.left-arrow {
-    background-image: url(images/left_arrow.png);
+.arrow svg {
+    fill: #fff;
 }
 
-.right-arrow {
-    background-image: url(images/right_arrow.png);
+.arrow svg:hover {
+    fill: #c7b299;
+    cursor: pointer;
+}
+
+.right-arrow svg {
+    transform: rotate(180deg);
 }
 
 .arrow:focus {
     outline: none;
-}
-
-.arrow:hover {
-    opacity: 0.7;
 }
 
 /*Пагинация*/
@@ -522,9 +533,10 @@
     fill: #c7b299;
 }
 
+/*Видео презентация*/
 
 .video-presentation {
-     height: 705px;
+    height: 705px;
     margin-top: 80px;
     text-align: center;
     position: relative;
@@ -840,7 +852,6 @@
     display: flex;
     justify-content: center;
     background-image: url(images/bg_photo_11122.jpg);
-    background-position: contain;
     background-repeat: no-repeat;
     padding: 95px;
 }
@@ -979,145 +990,20 @@ footer {
     color: #959595;
     text-decoration: none;
 }
+
 .footer-menu li a:hover {
     color: #c7b299;
 }
+
 .vertical-line li a {
     border-left: 1px solid #252525;
     padding-left: 15px;
 }
-.vertical-line li:first-child a{
+
+.vertical-line li:first-child a {
     border-left: none;
 }
+
 .line li:last-child {
     border-left: 1px solid #252525;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-65465465
