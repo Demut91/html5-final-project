@@ -1030,9 +1030,10 @@ footer {
     border-left: 1px solid #252525;
 }
 
+/*
 
 @media screen and (max-width: 500px) {
-    .menuk {
+    .menu {
         display: none;
     }
     .pagination {
@@ -1060,6 +1061,7 @@ footer {
     }
     
     
+*/
     
     
     
