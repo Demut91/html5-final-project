@@ -247,6 +247,7 @@
     justify-content: center;
     padding-top: 90px;
     padding-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .item {
@@ -254,6 +255,7 @@
     width: 15%;
     padding: 15px;
     height: 220px;
+    
 }
 
 .item-heading {
@@ -538,10 +540,15 @@
 .video-presentation {
     height: 705px;
     margin-top: 80px;
-    text-align: center;
-    position: relative;
     color: #fff;
-    display: flex;
+    position: relative;
+}
+
+.video-presentation svg {
+    fill: #ffffff;
+    position: absolute;
+    top: 28%;
+    left: 48%;
 }
 
 
@@ -552,7 +559,11 @@
     font-weight: 500;
     color: #ffffff;
     margin: 25px;
+    position: absolute;
+    top: 39%;
+    left: 40%;
 }
+
 
 .video-desc {
     font-family: 'Montserrat', sans-serif;
@@ -560,11 +571,22 @@
     line-height: 28px;
     font-weight: 300;
     color: #ffffff;
-    width: 80%;
-    margin: 0 auto;
+    text-align: center;
+    max-width: 40%;
     position: absolute;
-    top: 70%;
-    left: 15%;
+     top: 52%;
+    left: 30%;
+}
+
+.time {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #c7b299;
+    position: absolute;
+    top: 62%;
+    left: 49%;
 }
 
 .video-file {
@@ -1007,3 +1029,77 @@ footer {
 .line li:last-child {
     border-left: 1px solid #252525;
 }
+
+
+@media screen and (max-width: 500px) {
+    .menuk {
+        display: none;
+    }
+    .pagination {
+        display: none;
+    }
+    .item {
+    }
+    
+        
+    
+    .first-img {
+        display: block;
+        position: static;
+    }
+    .second-img {
+        display: block;
+        position: static;
+    }
+    .last-img {
+        display: block;
+        position: static;
+    }
+    .three-images {
+        display: block;
+    }
+    
+    
+    
+    
+    
+    
+    
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+..
